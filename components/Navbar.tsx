@@ -161,7 +161,7 @@ const Navbar: React.FC = () => {
                   href="/auth/register"
                   className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:from-cyan-400 hover:to-blue-400 transition-all duration-300 transform hover:scale-105"
                 >
-                  S'inscrire
+                  S&apos;inscrire
                 </Link>
               </>
             ) : (
@@ -261,7 +261,7 @@ const Navbar: React.FC = () => {
                     className="block w-full px-4 py-2 text-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full"
                     onClick={() => setIsOpen(false)}
                   >
-                    S'inscrire
+                    S&apos;inscrire
                   </Link>
                 </div>
               </div>

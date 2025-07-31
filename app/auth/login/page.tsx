@@ -53,7 +53,7 @@ const LoginPage: React.FC = () => {
       
       // Redirection vers dashboard
       window.location.href = '/dashboard';
-    } catch (error) {
+    } catch {
       setErrors({ general: 'Erreur de connexion. Vérifiez vos identifiants.' });
     } finally {
       setIsLoading(false);

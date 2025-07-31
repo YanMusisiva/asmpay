@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-gray-400 max-w-md mb-6">
               La plateforme de Mobile Money qui simplifie vos transactions en Uganda, Burundi et RDC. 
-              Sans vérification d'identité, sans frais cachés.
+              Sans vérification d&apos;identité, sans frais cachés.
             </p>
             <div className="flex space-x-4">
               {['🇺🇬', '🇧🇮', '🇨🇩'].map((flag, index) => (

@@ -126,8 +126,8 @@ const HomePage: React.FC = () => {
               </h1>
               
               <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                Déposez, retirez et transférez de l'argent entre Uganda, Burundi et RDC. 
-                Sans vérification d'identité, sans frais cachés.
+                Déposez, retirez et transférez de l&apos;argent entre Uganda, Burundi et RDC. 
+                Sans vérification d&apos;identité, sans frais cachés.
               </p>
             </div>
 
@@ -187,7 +187,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-400 rounded-full flex items-center justify-center text-black text-sm font-bold mt-1">2</div>
-                    <p className="text-gray-300 text-sm">Envoyez l'argent via Mobile Money</p>
+                    <p className="text-gray-300 text-sm">Envoyez l&apos;argent via Mobile Money</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-400 rounded-full flex items-center justify-center text-black text-sm font-bold mt-1">3</div>
@@ -231,7 +231,7 @@ const HomePage: React.FC = () => {
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-purple-400 rounded-full flex items-center justify-center text-black text-sm font-bold mt-1">1</div>
-                    <p className="text-gray-300 text-sm">Cliquez sur "Retirer" dans votre compte</p>
+                    <p className="text-gray-300 text-sm">Cliquez sur &quot;Retirer&quot; dans votre compte</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-purple-400 rounded-full flex items-center justify-center text-black text-sm font-bold mt-1">2</div>
@@ -239,7 +239,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-purple-400 rounded-full flex items-center justify-center text-black text-sm font-bold mt-1">3</div>
-                    <p className="text-gray-300 text-sm">Recevez sur votre numéro d'inscription</p>
+                    <p className="text-gray-300 text-sm">Recevez sur votre numéro d&apos;inscription</p>
                   </div>
                 </div>
               </div>
@@ -308,7 +308,7 @@ const HomePage: React.FC = () => {
             </div>
             
             <p className="text-gray-400 text-lg">
-              D'autres pays seront ajoutés prochainement selon la demande
+              D&apos;autres pays seront ajoutés prochainement selon la demande
             </p>
           </div>
         </section>
@@ -355,7 +355,7 @@ const HomePage: React.FC = () => {
           <div className="max-w-4xl mx-auto text-center">
             <div className="p-12 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-lg rounded-3xl border border-cyan-400/30">
               <h2 className="text-4xl font-bold mb-6 text-white">
-                Prêt à connecter l'Afrique de l'Est ?
+                Prêt à connecter l&apos;Afrique de l&apos;Est ?
               </h2>
               <p className="text-xl text-gray-300 mb-8">
                 Rejoignez la révolution des transferts Mobile Money inter-pays sans contraintes

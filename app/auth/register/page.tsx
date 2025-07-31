@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Eye, EyeOff, Mail, Lock, User, Phone, Globe, Zap, ArrowRight, CheckCircle } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, User, Phone, Globe, Zap, CheckCircle } from 'lucide-react';
 
 interface Country {
   code: string;
@@ -124,7 +124,7 @@ const RegisterPage: React.FC = () => {
       
       // Redirection vers dashboard
       window.location.href = '/dashboard';
-    } catch (error) {
+    } catch {
       setErrors({ general: 'Erreur lors de l\'inscription. Réessayez.' });
     } finally {
       setIsLoading(false);
@@ -303,7 +303,7 @@ const RegisterPage: React.FC = () => {
                       : 'border-gray-600 focus:ring-cyan-500/50 focus:border-cyan-500/50'
                   } ${!selectedCountry ? 'opacity-50 cursor-not-allowed' : ''}`}
                 >
-                  <option value="" className="bg-gray-800">Sélectionnez l'opérateur</option>
+                  <option value="" className="bg-gray-800">Sélectionnez l&apos;opérateur</option>
                   {selectedCountry?.operators.map(operator => (
                     <option key={operator} value={operator} className="bg-gray-800">
                       {operator}
@@ -430,9 +430,9 @@ const RegisterPage: React.FC = () => {
                     }`}
                 />
                 <label htmlFor="agreeTerms" className="text-gray-400">
-                    J'accepte les{' '}
+                    J&apos;accepte les{' '}
                     <Link href="/terms" className="text-cyan-400 hover:underline">
-                    conditions d'utilisation
+                    conditions d&apos;utilisation
                     </Link>
                 </label>
             </div>
