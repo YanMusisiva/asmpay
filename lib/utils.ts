@@ -1,0 +1,1 @@
+//generation de pdf avec reactpdf /renderer
