@@ -1,7 +1,7 @@
 // app/dashboard/withdraw/page.tsx
 import React from 'react';
 
-const WithdrawPage: React.FC = () => {
+const WithdrawPage = () => {
   
     return (
     <main>
