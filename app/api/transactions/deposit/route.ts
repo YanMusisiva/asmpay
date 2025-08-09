@@ -1,4 +1,4 @@
-export async function GET(req: Request) {
+export async function GET() {
   return new Response(
     JSON.stringify({ message: "API temporaire active, design OK." }),
     {
@@ -8,7 +8,7 @@ export async function GET(req: Request) {
   );
 }
 
-export async function POST(req: Request) {
+export async function POST() {
   return new Response(
     JSON.stringify({ message: "API temporaire POST reçue." }),
     {
